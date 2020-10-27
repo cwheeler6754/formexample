@@ -27,18 +27,20 @@
     </header>
     <main>
         <section>
-            <fieldset>
-                <legend>
-                    <h2 style="color: red;">Feedback</h2>
-                </legend>
-                <div class="comments">
-                    <label for="feedback">Please provide any feedback you would like to give us!</label>
-                </div>
-                <textarea name="feedback" id="feedback" cols="120" rows="10"></textarea>
-                <br><br><br>
-                <Label for="submit">&nbsp;</Label>
-                <input type="submit" name="submit" id="submit" value="Submit Feedback">
-            </fieldset>
+            <form name="feedback" method="post" data-netlify="true">
+                <fieldset>
+                    <legend>
+                        <h2 style="color: red;">Feedback</h2>
+                    </legend>
+                    <div class="comments">
+                        <label for="feedback">Please provide any feedback you would like to give us!</label>
+                    </div>
+                    <textarea name="feedback" id="feedback" cols="120" rows="10"></textarea>
+                    <br><br><br>
+                    <Label for="submit">&nbsp;</Label>
+                    <input type="submit" name="submit" id="submit" value="Submit Feedback">
+                </fieldset>
+            </form>
         </section>
     </main>
     <footer>
