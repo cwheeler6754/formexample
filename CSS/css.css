@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    width: 85%;
+    margin: auto;
+}
+
+article {
+    margin-top: 9em;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+#h5 {
+    font-size: medium;
+}
+
+.email, .hyperlink {
+    text-decoration: none;
+    color: red;
+}
+
+.header {
+    text-align: center;
+    color: red;
+    background-color: lightgray;
+    padding: .25em;
+    width: 100%;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    text-align: center;
+    color: red;
+    background-color: lightgray;
+    padding: 0.25em;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+    font-size: large;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+  
+nav ul li a {
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    background: red;
+    padding: 0.5em 0.75em;
+    margin: 0.6em;
+    color: white;
+}
+
+p {
+    font-size: x-large;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.contact {
+    font-size: x-large;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;
+}
+
+.feedback {
+    font-size: medium;
+
+}
+.footer {
+    font-size: small;
+}
+
+.comments {
+    margin-bottom: 1em;
+}
+label {
+    display: inline;
+    font-size: large;
+}
+form {
+    width: 100%;
+    margin: auto;
+}
+fieldset {
+    border: 2px solid black;
+    margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 80%;
+    }
+    img {
+        display: none;
+    }
+    nav, nav ul li, nav ul li a {
+        display: flex;
+    }
+    h1, h2 {
+        display: flex;
+    }
+}

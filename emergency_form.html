@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cody's Project: Emergency Form</title>
+    <link rel="stylesheet" href="CSS/css.css">
+    <link rel="icon" type="image/png" href="media/favicon.png">
+    <meta name="description"
+        content="This page is about Special Olympics Idaho Team Ghostbusters. It includes an emergency form which is used by this team. Feedback is also welcomed by using the feedback page.">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>Special Olympics Idaho<br>Team Ghostbusters<br>
+                <img src="media/gblogo.png" width="175" height="200" alt="team logo"></h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" target="_blank">About</a></li>
+            <li><a href="emergency_form.html" target="-blank">Emergency Form</a></li>
+            <li><a href="feedback.html" target="_blank">Feedback</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <form action="http://bonsai.lcsc.edu/apps/formreader/" method="GET">
+                <fieldset>
+                    <h2>Emergency Form</h2>
+                    <br>
+                    <fieldset>
+                            <legend>
+                                <h3 style="color: red;">About the Form</h3>
+                            </legend>
+                        <p>This form is used to keep current information on our athletes. It is used incase there is an
+                            incident. It also is helpful to know the participants contact information, energency
+                            contact, and
+                            medical information.</p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            <h3 style="color: red;">Athlete Contact & Emergency Information</h3>
+                        </legend>
+                        <div>
+                            <label for="aname">Athlete's Name:</label>
+                            <input type="text" id="aname" name="athlete name">
+                            <label for="age">Age:</label>
+                            <input type="number" id="age" name="age">
+                            <label for="bday">Birthdate:</label>
+                            <input type="date" id="bday" name="birthday">
+                        </div>
+                        <div>
+                            <label for="phone">Phone #:</label>
+                            <input type="tel" id="phone" name="phone number">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address">
+                        </div>
+                        <div>
+                            <label for="cyes">**I give consent for my photo to be taken</label>
+                            <input type="radio" id="cyes" name="consent">
+                            <label for="cno">Yes</label>
+                            <input type="radio" id="cno" name="consent">
+                            <label for="cno">No</label>
+                            <p id="h5">
+                                *Pictures may be used on social media & other promotional events*
+                            </p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            <h3 style="color: red;">Contact Information in Case of Emergency</h3>
+                        </legend>
+                        <div>
+                            <label for="pgname">Parent or Guardians Name:</label>
+                            <input type="text" id="pgname" name="parent/guardian name">
+                        </div>
+                        <div>
+                            <label for="pgemail">Email:</label>
+                            <input type="email" id="pgemail" name="parent/guardian email">
+                            <label for="pgphone">Phone #:</label>
+                            <input type="tel" id="pgphone" name="parent/guardian phone">
+                        </div>
+                        <div>
+                            <label for="ecname">Emergency Contact's Name:</label>
+                            <input type="text" id="ecname" name="emergency contact name">
+                        </div>
+                        <div>
+                            <label for="ecemail">Email:</label>
+                            <input type="email" id="ecemail" name="emergency contact email">
+                            <label for="ecphone">Phone #:</label>
+                            <input type="tel" id="ecphone" name="emergency contact phone">
+                        </div>
+                        <div>
+                            <label for="relate">Relationship to Athlete:</label>
+                            <input type="text" id="relate" name="relationship">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            <h3 style="color: red;">Medical Information</h3>
+                        </legend>
+                        <div>
+                            <label for="myes">Medication Allergies:</label>
+                            <input type="radio" id="myes" name="medication allergies">
+                            <label for="myes">Yes</label>
+                            <input type="radio" id="mno" name="medication allergies">
+                            <label for="mno">No</label>
+                        </div>
+                        <div>
+                            <label for="medallyes">If so which medications?</label>
+                            <input type="text" id="medallyes" name="medicaion allergies if yes">
+                        </div>
+                        <div>
+                            <label for="otherall">Other Allergies (i.e., bee stings, dust, food)?</label>
+                            <input type="text" id="otherall" name="other allergies">
+                        </div>
+                        <div>
+                            <label for="asthma">Do you have any of the following?</label>
+                            <input type="checkbox" id="asthma" name="other">
+                            <label for="asthma">Asthma</label>
+                            <input type="checkbox" id="diabetes" name="other">
+                            <label for="diabetes">Diabetes</label>
+                            <input type="checkbox" id="epilepsy" name="other">
+                            <label for="epilepsy">Epilepsy</label>
+                            <input type="checkbox" id="ai" name="other">
+                            <label for="ai">Atlantoaxial Instability</label>
+                        </div>
+                        <div>
+                            <label for="curmed">Current Medications:</label>
+                            <input type="text" id="curmed" name="current medications">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                                <h3 style="color: red;">Anything else you feel we should know?</h3>
+                        </legend>
+                        <textarea name="other info" id="otherinfo" cols="120" rows="10"></textarea>
+                    </fieldset>
+                    <Label for="submit">&nbsp;</Label>
+                    <input type="submit" name="submit" id="submit" value="Submit Emergency Form">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <p id="footer">Designed by Cody Wheeler 2020</p>
+    </footer>
+</body>
+
+</html>
